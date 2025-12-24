@@ -1,4 +1,10 @@
+import plotly
+st.write("Plotly version:", plotly.__version__)
+
+
+st.write("Python:", sys.version)
 import numpy as np
+import sys
 import pandas as pd
 import streamlit as st
 import plotly.graph_objects as go
@@ -246,5 +252,6 @@ else:
 
 st.write("")
 st.caption("Ayelet+Adi+Odelia")
+
 
 
